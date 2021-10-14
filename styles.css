@@ -1,0 +1,100 @@
+body{
+    background-color:#8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.categorie{
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 13px 10px 13px;
+    font-size: large;
+    display: inline-block;
+    font-weight: bold; 
+    font-style: italic;
+    margin-left: 3Opx;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    
+
+}
+div.categorie{
+    /*background-color: tomato;*/
+    margin-bottom: -40px;
+    
+}
+
+div#wrapper{
+    background-color: white;
+    margin: 20px 15% 20px 15%;
+    padding: 30px;
+}
+h1{text-align: center; margin-bottom: 15px;}
+p.description{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+}
+div.centre{
+    text-align: center;
+}
+div.soulignement{
+    display: block;
+    border-bottom: solid black;
+    border-width: 3px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+}
+.centre{
+    text-align: center;
+    width: 100%;
+}
+table.info{
+    position: absolute; bottom:0px; width: 100%; background-color: #6C829D;opacity: 68%;
+}
+table.info td{text-align: center;}
+img.info{
+    width: 100%;
+    display: block;
+    max-height: 400px;
+    object-fit: cover;/* Permet à l'image de s'adapter dans sa hauteur en fonction de l'agrandissement de la fenetre*/
+}
+div.colonne{
+    width: 45%;
+    
+}
+div.colonne1{
+    
+    display: inline-block;
+}
+div.colonne2{
+    float: right;
+}
+.colonne h3{
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 5px solid #6C829D;
+    border-width:100%;
+}
+div.ingredients p{
+    text-align: center;
+    font-size: 14px;
+    border:  1px solid lightgray;
+    padding: 4px 0;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+*{
+    overflow: auto;
+}
+table.preparation p.numero{
+    background-color: #6C829D;
+    padding: 3px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: black solid;
+    border-radius: 50%;
+    margin: 0%;
+}
